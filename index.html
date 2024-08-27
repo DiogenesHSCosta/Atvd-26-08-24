@@ -5,23 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/style.css">
     <title>WashCycle</title>
 </head>
 
 <body>
-    <header>
-        <figure> <img src="src/img/Logo Wash.jpeg" alt="Logo da marca"></figure>
-        <nav>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">OBJETIVO</a></li>
-                <li><a href="#">CONTATO/SOBRE NÓS</a></li>
-            </ul>
+    <header class="cabecalho">
+        <h1>
+            WashCycle
+        </h1>
+        <ul class="navbar">
+            <li class="navbar-itens"><a href="#">HOME</a></li>
+            <li class="navbar-itens"><a href="#">OBJETIVO</a></li>
+            <li class="navbar-itens"><a href="#">CONTATO/SOBRE NÓS</a></li>
+        </ul>
         </nav>
     </header>
     <main>
+        <section class="objetivo">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores officiis distinctio aut quod
+                    similique iste eaque doloremque expedita earum sint! Modi fugiat doloribus doloremque ipsa quaerat,
+                    adipisci libero ipsum officia.</p>
+            </article>
+            <div>
+                <figure>
+                    <img src="" alt="Imagem demonstrando uso">
+                </figure>
+            </div>
+            <div class="btn">
+                Saiba Mais
+            </div>
+        </section>
+
+        <section class="sobre">
+            <article>
+                TEXTO CENTRALIZADO
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta quo nulla, optio deserunt
+                quidem nam corporis veniam minus voluptatum ut perferendis maiores numquam eaque, ex voluptates
+                reprehenderit ducimus dolor!
+            </article>
+            <div class="galeria">
+                <figure class="minifotos">
+                    <img src="src/img/pessoa.jpg" alt="img CEO">
+                </figure>
+                <figure class="minifotos">
+                    <img src="src/img/pessoa.jpg" alt="img CFO">
+                </figure>
+                <figure class="minifotos">
+                    <img src="src/img/pessoa.jpg" alt="img CTO">
+                </figure>
+            </div>
+            <div class="btn">
+                Saiba Mais Centralizado
+            </div>
+        </section>
 
     </main>
+    <aside class="ultimas noticias">
+        <ul>
+            <li>noticias1</li>
+            <li>noticias2</li>
+            <li>noticias3</li>
+            <li>noticias4</li>
+            <li>noticias5</li>
+            <li>noticias6</li>
+        </ul>
+    </aside>
     <footer>
         &copy;WashCycle
     </footer>
